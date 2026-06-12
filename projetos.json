@@ -1,0 +1,42 @@
+.env
+node_modules/
+dist/
+.DS_Store
+
+[
+  {
+    "id": 1,
+    "nome": "PortfolioHUB",
+    "descricao": "Plataforma centralizadora de portfólios para desenvolvedores integrada com a API do GitHub e inteligência artificial Gemini.",
+    "tecnologias": ["Python"],
+    "status": "Em desenvolvimento",
+    "url_repositorio": "https://github.com/seu-usuario/portfolio-hub"
+  },
+  {
+    "id": 2,
+    "nome": "Primeiro Projeto de ADS",
+    "descricao": "Projeto conceitual de algoritmos desenvolvido durante o primeiro semestre da faculdade.",
+    "tecnologias": ["Python"],
+    "status": "Concluído",
+    "url_repositorio": "https://github.com/seu-usuario/projeto-algoritmos"
+  }
+]
+
+# PortfolioHUB + IA GEMINI
+
+## 🚀 Sobre o Projeto
+Este repositório foi desenvolvido como parte de um trabalho prático da faculdade para o curso de **Análise e Desenvolvimento de Sistemas (ADS)**. O **PortfolioHUB** é uma solução projetada para centralizar, organizar e exibir projetos de desenvolvedores de forma automatizada, utilizando a API do GitHub para consumo de dados e o Google Gemini como guia de inteligência artificial para implantação e segurança.
+
+## 🛠️ Tecnologias e Ferramentas Utilizadas
+* **Git & GitHub:** Versionamento de código, controle de acesso e armazenamento estruturado.
+* **Google Gemini:** Engenharia de prompt aplicada para validação de segurança e arquitetura.
+* **Google Workspace:** Planejamento ágil e gestão colaborativa das fases do projeto.
+* **JSON:** Estruturação estática de dados para armazenamento de projetos.
+
+## 🔐 Políticas de Segurança Aplicadas
+1. **Princípio do Menor Privilégio:** Permissões de chaves de API configuradas estritamente como *Read-Only* (Apenas Leitura).
+2. **Proteção de Credenciais:** Uso de arquivo `.gitignore` para blindagem de dados sensíveis e variáveis de ambiente.
+3. **Análise Automatizada:** Ativação do *GitHub Dependabot* para monitoramento de vulnerabilidades.
+
+---
+*Entrega individual de projeto acadêmico - Junho/2026.*
